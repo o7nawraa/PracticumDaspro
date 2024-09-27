@@ -8,7 +8,7 @@ public class ModifyPemilihanBilangan07 {
     System.out.print("Masukkan sebuah angka: ");
     int angka = sc.nextInt();
     String hasil;
-    hasil = (angka % 2 == 0) ? "bilangan genap" : "bilangan negatif";
+    hasil = (angka % 2 == 0) ? "bilangan genap" : "bilangan ganjil";
 System.out.println(angka + " adalah " + hasil);
 }
 }

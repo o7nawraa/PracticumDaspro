@@ -42,6 +42,10 @@ public class Kafe07 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default:
+                totalHarga = 0 * totalHarga;
+                System.out.println("The size that selected" + ukuranCup + "Is not available");
+                break; 
         }
         double diskon = keanggotaan ? 0.1 : 0;
         double nominalBayar = totalHarga - (diskon * totalHarga);

@@ -10,9 +10,12 @@ public static void main(String[] args) {
     System.out.print("Input year : ");
     year = input07.nextInt();
 if (year%4 == 0){
-    if (year%100 != 0) 
+    if (year%100 != 0) { 
         System.out.println("Leap year");
-} else 
+    } if (year%100 == 0){
+        System.out.println("Not a leap year");
+    }
+    } else 
     System.out.println("Not a leap year");
 }
 }

@@ -31,6 +31,6 @@ public class Selection2Exp307 {
                     netSalary = (int) (income - (tax*income));
                     System.out.println("Net salary = " + netSalary);
             } else 
-                System.out.println("Invalidd category!");
+                System.out.println("Invalidd");
         }
     }

@@ -1,4 +1,3 @@
-package Jobsheet6_07;
 import java.util.Scanner;
 public class Selection2Exp207 {
     public static void main(String[] args) {

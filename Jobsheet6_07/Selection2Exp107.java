@@ -1,4 +1,3 @@
-package Jobsheet6_07;
 import java.util.Scanner;
 /**
  * Selection2Exp1StudentIDNumber

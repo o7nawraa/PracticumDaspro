@@ -9,14 +9,16 @@ public static void main(String[] args) {
     System.out.print("Input year : ");
     year = input07.nextInt();
 if (year%4 == 0){
-    if (year%100 != 0) { 
-        System.out.println("Leap year");
-    } else if (year%400 == 0){
-        System.out.println("Leap year");
-    } else if (year%100 == 0){
-        System.out.println("Not a leap year");
+    if (year%100 == 0) { 
+        if (year%400 == 0){
+            System.out.print("leap year");
+        } else{
+            System.out.println("Not a leap year");
+    } 
+    } else {
+        System.out.print("a leap year");
     }
     } else 
     System.out.println("Not a leap year");
-}
+    }
 }
